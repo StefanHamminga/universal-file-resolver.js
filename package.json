@@ -1,8 +1,9 @@
 {
   "name": "ufr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promise based library to quickly find the first accessible file in a set of filenames and paths. Resolves both local and http(s) url paths.",
   "main": "resolve.js",
+  "engines": { "node" : ">=6" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,5 +31,6 @@
   "dependencies": {
     "request": "^2.74.0",
     "url-join": "^1.1.0"
-  }
+  },
+  "tonicExampleFilename": "example.js"
 }

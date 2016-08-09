@@ -35,6 +35,8 @@ Found your file:
 */
 ```
 
+Try the above running `example.js` in this repository or online: [Tonic](https://tonicdev.com/npm/ufr).
+
 ## Arguments
 
 ### Input
