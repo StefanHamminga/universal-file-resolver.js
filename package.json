@@ -1,0 +1,34 @@
+{
+  "name": "ufr",
+  "version": "1.0.0",
+  "description": "Promise based library to quickly find the first accessible file in a set of filenames and paths. Resolves both local and http(s) url paths.",
+  "main": "resolve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanHamminga/universal-file-resolver.js.git"
+  },
+  "keywords": [
+    "file",
+    "path",
+    "url",
+    "determine",
+    "exists",
+    "access",
+    "request",
+    "resolve",
+    "locate"
+  ],
+  "author": "Stefan Hamminga",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/StefanHamminga/universal-file-resolver.js/issues"
+  },
+  "homepage": "https://github.com/StefanHamminga/universal-file-resolver.js#readme",
+  "dependencies": {
+    "request": "^2.74.0",
+    "url-join": "^1.1.0"
+  }
+}
