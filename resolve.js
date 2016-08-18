@@ -76,7 +76,7 @@ function resolve(filenames, paths) {
         function loop(fi, pi) {
             let f = filenames[fi];
             let p = paths[pi];
-            let ri = (fi+1) * (pi+1) - 1; // Our result insertion point (ranking)
+            let ri = pi * fl + fi; // Our result insertion point (ranking)
 
             let url = isUrl(p) || (p === '' && isUrl(f));
 
